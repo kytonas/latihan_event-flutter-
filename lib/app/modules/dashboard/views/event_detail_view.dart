@@ -48,6 +48,14 @@ class EventDetailView extends StatelessWidget {
                 color: Colors.grey,
               ),
             ),
+            const SizedBox(height: 8),
+            Text(
+              'Dibuat oleh : ${event.dibuatOleh!}',
+              style: const TextStyle(
+                fontSize: 16,
+                color: Colors.grey,
+              ),
+            ),
             const SizedBox(height: 16),
             Row(
               children: [
